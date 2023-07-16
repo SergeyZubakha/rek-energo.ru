@@ -1,6 +1,7 @@
 package ru.rekEnergo.pages;
 
 import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
@@ -37,7 +38,8 @@ public class MainPage {
     }
 
     public MainPage clickMoreInfo() {
-        $("[rel='energy-activity']").click();
+        //$("[rel='energy-activity']").click();
+        $(byText("Подробнее")).click();
         return this;
     }
 
