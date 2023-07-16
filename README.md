@@ -10,7 +10,7 @@
 <img src="images/logo/Selenide.svg" width="50" height="50"  alt="Selenide"/>
 <img src="images/logo/Selenoid.svg" width="50" height="50"  alt="Selenoid"/>
 <img src="images/logo/Allure_Report.svg" width="50" height="50"  alt="Allure_Report"/>
-<img src="images/logo/Allure_TK.svg" width="50" height="50"  alt="Allure_TO"/>
+<img src="images/logo/Allure_TO.svg" width="50" height="50"  alt="Allure_TO"/>
 <img src="images/logo/Jenkins.svg" width="50" height="50"  alt="Jenkins"/>
 <img src="images/logo/Jira.svg" width="50" height="50"  alt="Jira"/>
 </p>
