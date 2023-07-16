@@ -14,9 +14,8 @@ public class CheckLanding extends TestBase {
         mainPage.openPage()
                 .assertHeader()
                 .assertTitle1()
-                .clickActivity();
-        //sleep(10000);
-        mainPage.assertTitle2()
+                .clickActivity()
+                .assertTitle2()
                 .clickMoreInfo()
                 .assertPopupTitle();
     }
