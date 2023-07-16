@@ -65,7 +65,7 @@ ${TASK}
 
 #### Тест-кейсы
 <p align="center">
-<img title="Jenkins Build" src="AllureTestopsTK">
+<img title="Jenkins Build" src="AllureTestOpsTk">
 </p>
 
 ### Интеграция с Jira
