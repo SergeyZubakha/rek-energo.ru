@@ -39,7 +39,13 @@ public class MainPage {
 
     public MainPage clickMoreInfo() {
         //$("[rel='energy-activity']").click();
-        $(byText("Подробнее")).click();
+        //$(byText("Подробнее")).click();
+
+        try {
+            $("button.more__info").click(); //пробуем нажать
+        } catch (Exception e) { //если не нажалось, повторяем попытку
+            $("button.more__info").click();
+        }
         return this;
     }
 
