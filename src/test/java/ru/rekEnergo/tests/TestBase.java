@@ -16,6 +16,7 @@ import static com.codeborne.selenide.Selenide.closeWebDriver;
 
 public class TestBase {
     MainPage mainPage = new MainPage();
+
     @BeforeAll
     static void beforeAll() {
         //Configuration.baseUrl = "https://rek-energo.ru/#;
