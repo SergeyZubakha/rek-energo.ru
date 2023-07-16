@@ -2,17 +2,17 @@
 
 ### Технологии и инструменты:
 <p align="center">
-<img src="images/logos/Intelij_IDEA.svg" width="50" height="50"  alt="IDEA"/>
-<img src="images/logos/Java.svg" width="50" height="50"  alt="Java"/>
-<img src="images/logos/Github.svg" width="50" height="50"  alt="Github"/>
-<img src="images/logos/JUnit5.svg" width="50" height="50"  alt="JUnit 5"/>
-<img src="images/logos/Gradle.svg" width="50" height="50"  alt="Gradle"/>
-<img src="images/logos/Selenide.svg" width="50" height="50"  alt="Selenide"/>
-<img src="images/logos/Selenoid.svg" width="50" height="50"  alt="Selenoid"/>
-<img src="images/logos/Allure_Report.svg" width="50" height="50"  alt="Allure_Report"/>
-<img src="images/logos/Allure_TO.svg" width="50" height="50"  alt="Allure_TO"/>
-<img src="images/logos/Jenkins.svg" width="50" height="50"  alt="Jenkins"/>
-<img src="images/logos/Jira.svg" width="50" height="50"  alt="Jira"/>
+<img src="images/logo/Intelij_IDEA.svg" width="50" height="50"  alt="IDEA"/>
+<img src="images/logo/Java.svg" width="50" height="50"  alt="Java"/>
+<img src="images/logo/Github.svg" width="50" height="50"  alt="Github"/>
+<img src="images/logo/JUnit5.svg" width="50" height="50"  alt="JUnit 5"/>
+<img src="images/logo/Gradle.svg" width="50" height="50"  alt="Gradle"/>
+<img src="images/logo/Selenide.svg" width="50" height="50"  alt="Selenide"/>
+<img src="images/logo/Selenoid.svg" width="50" height="50"  alt="Selenoid"/>
+<img src="images/logo/Allure_Report.svg" width="50" height="50"  alt="Allure_Report"/>
+<img src="images/logo/Allure_TO.svg" width="50" height="50"  alt="Allure_TO"/>
+<img src="images/logo/Jenkins.svg" width="50" height="50"  alt="Jenkins"/>
+<img src="images/logo/Jira.svg" width="50" height="50"  alt="Jira"/>
 </p>
 
 ### Реализованные проверки:
