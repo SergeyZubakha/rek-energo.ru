@@ -27,7 +27,7 @@ public class MainPage {
     }
 
     public MainPage clickActivity() {
-        $("[href = '../#activity']").hover();
+
         $("[href = '../#activity']").click();
         return this;
     }
@@ -39,6 +39,7 @@ public class MainPage {
 
     public MainPage clickMoreInfo() {
         //$("[rel='energy-activity']").click();
+        $(byText("Подробнее")).hover();
         $(byText("Подробнее")).click();
         return this;
     }
