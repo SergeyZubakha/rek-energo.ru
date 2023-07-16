@@ -4,6 +4,8 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
+import static com.codeborne.selenide.Selenide.sleep;
+
 public class CheckLanding extends TestBase {
     @Test
     @Tag("Smoke")
@@ -12,8 +14,9 @@ public class CheckLanding extends TestBase {
         mainPage.openPage()
                 .assertHeader()
                 .assertTitle1()
-                .clickActivity()
-                .assertTitle2()
+                .clickActivity();
+        sleep(10000);
+        mainPage.assertTitle2()
                 .clickMoreInfo()
                 .assertPopupTitle();
     }

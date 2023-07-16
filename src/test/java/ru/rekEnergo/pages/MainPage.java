@@ -38,7 +38,6 @@ public class MainPage {
 
     public MainPage clickMoreInfo() {
         //$("[rel='energy-activity']").click();
-        sleep(10000);
         $(byText("Подробнее")).click();
         return this;
     }
