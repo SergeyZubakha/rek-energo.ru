@@ -37,7 +37,7 @@ public class MainPage {
     }
 
     public MainPage clickMoreInfo() {
-        $(".buttons").click();
+        $("[rel='energy-activity']").click();
         return this;
     }
 

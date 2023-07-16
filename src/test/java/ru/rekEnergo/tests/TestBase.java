@@ -28,8 +28,6 @@ public class TestBase {
 
         Configuration.remote = System.getProperty("selenoidUrl"); //для запуска тестов удаленно
         Configuration.baseUrl = System.getProperty("baseUrl", "https://rek-energo.ru/#");
-        Configuration.browser = System.getProperty("browser", "chrome");
-        Configuration.browserVersion = System.getProperty("browserVersion", "100.0");
         Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
