@@ -27,6 +27,7 @@ public class MainPage {
     }
 
     public MainPage clickActivity() {
+        $("[href = '../#activity']").hover();
         $("[href = '../#activity']").click();
         return this;
     }
