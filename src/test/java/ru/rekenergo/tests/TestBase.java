@@ -1,4 +1,4 @@
-package ru.rekEnergo.tests;
+package ru.rekenergo.tests;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
@@ -7,15 +7,13 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import ru.rekEnergo.helpers.Attach;
-import ru.rekEnergo.pages.MainPage;
+import ru.rekenergo.helpers.Attach;
 
 import java.util.Map;
 
 import static com.codeborne.selenide.Selenide.closeWebDriver;
 
 public class TestBase {
-    MainPage mainPage = new MainPage();
 
     @BeforeAll
     static void beforeAll() {

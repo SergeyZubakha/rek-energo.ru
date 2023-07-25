@@ -1,4 +1,4 @@
-package ru.rekEnergo.helpers;
+package ru.rekenergo.helpers;
 
 import com.codeborne.selenide.Selenide;
 import io.qameta.allure.Attachment;
